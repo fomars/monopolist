@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="new_player">
+        <a href="#" class="add_new_player_during_game">Add new player</a>
+      </div>
+
+      <div class="from panel">
+        From:<br>
+        Player 3
+      </div>
+      <div class="players">
+        <table class="table players table-hover">
+        <thead>
+          <tr>
+            <th colspan="2" class="players">Select the benificiary:</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="active_player">
+            <td>
+              Player1
+            </td>
+            <td class="balance">
+              500
+            </td>
+          </tr>
+          <tr class="active_player">
+            <td>
+              Player2
+            </td>
+            <td class="balance">
+              1500
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
+
+      <input type="button" class="btn btn-success btn-block start_btn" value="START">
+    </div>
+
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="underscore-min.js"></script>
+    <script src="app.js"></script>
+    
+  </body>
+</html>
